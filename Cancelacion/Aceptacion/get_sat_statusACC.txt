@@ -1,0 +1,11 @@
+{
+    'error': None,
+    'sat': {
+        'DetallesValidacionEFOS': 'RFC Emisor del CFDI se encuentra dentro de la lista de Empresa que Factura Operaciones Simuladas (EFOS).',
+        'EsCancelable': 'Cancelable con aceptación',
+        'ValidacionEFOS': '100',
+        'CodigoEstatus': 'S - Comprobante obtenido satisfactoriamente.',
+        'Estado': 'Cancelado',
+        'EstatusCancelacion': 'Plazo vencido'
+    }
+}

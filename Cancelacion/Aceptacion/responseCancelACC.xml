@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<senv:Envelope xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:tns="http://facturacion.finkok.com/cancel" xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s0="apps.services.soap.core.views" xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/" xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+   <senv:Body>
+      <tns:cancelResponse>
+         <tns:cancelResult>
+            <s0:Folios>
+               <s0:Folio>
+                  <s0:UUID>5A72852F-7D84-53C1-9D60-42787F060DF7</s0:UUID>
+                  <s0:EstatusUUID>202</s0:EstatusUUID>
+                  <s0:EstatusCancelacion>Plazo vencido</s0:EstatusCancelacion>
+               </s0:Folio>
+            </s0:Folios>
+            <s0:Fecha>2022-08-17 11:47:47.629189</s0:Fecha>
+            <s0:RfcEmisor>EKU9003173C9</s0:RfcEmisor>
+         </tns:cancelResult>
+      </tns:cancelResponse>
+   </senv:Body>
+</senv:Envelope>
